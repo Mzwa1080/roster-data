@@ -1,25 +1,32 @@
 {
-    "developers": [
-      { "id": 1, "name": "Shawn Louw", "role": "Frontend Developer" },
-      { "id": 2, "name": "Charles Lee", "role": "Backend Developer" },
-      { "id": 3, "name": "Tashreeq Mustaf", "role": "Fullstack Developer" },
-      { "id": 4, "name": "Mzwakhe Louw", "role": "UI/UX Designer" },
-      { "id": 5, "name": "Ehrin Manuel", "role": "DevOps Engineer" },
-      { "id": 6, "name": "Sakhi Abrahams", "role": "QA Tester" },
-      { "id": 7, "name": "Ben Schuman", "role": "Project Manager" }
+    "teams": [
+      {
+        "id": 1,
+        "name": "Backend Team",
+        "leaderId": 7,
+        "members": [2]
+      },
+      {
+        "id": 2,
+        "name": "Frontend Team",
+        "leaderId": 7,
+        "members": [1]
+      }
     ],
-    "schedule": {
-      "2025-02-07": [
-        { "developerId": 1, "task": "Build UI for Dashboard"},
-        { "developerId": 2, "task": "Develop API for User Auth"},
-        { "developerId": 3, "task": "Integrate UI with API"},
-        { "developerId": 3, "task": "Set up API for user authentication"},
-        { "developerId": 3, "task": "Integrate front-end with the API"  },
-        { "developerId": 4, "task": "Redesign login page" },
-        { "developerId": 5, "task": "Deploy new build to production"},
-        { "developerId": 6, "task": "Test API endpoints" },
-        { "developerId": 7, "task": "Coordinate sprint planning"}
-      ]
-    }
+    "members": [
+      { "id": 1, "name": "Shawn Louw", "role": "Frontend Developer", "skills": ["React", "JavaScript"] },
+      { "id": 2, "name": "Charles Lee", "role": "Backend Developer", "skills": ["Node.js", "SQL"] },
+      { "id": 3, "name": "Tashreeq Mustaf", "role": "Fullstack Developer", "skills": ["React", "Node.js", "JavaScript"] },
+      { "id": 7, "name": "Ben Schuman", "role": "Project Manager", "skills": ["Agile", "Team Coordination"] }
+    ],
+    "schedule": [
+      { "developerId": 1, "task": "Build UI for Dashboard", "shiftStart": "09:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
+      { "developerId": 1, "task": "Design User Profile Page", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
+      { "developerId": 2, "task": "Develop API for User Auth", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
+      { "developerId": 2, "task": "Set up Database for User Data", "shiftStart": "11:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
+      { "developerId": 3, "task": "Integrate UI with Backend", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
+      { "developerId": 3, "task": "Set up API for User Authentication", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
+      { "developerId": 7, "task": "Coordinate sprint planning", "shiftStart": "09:00", "shiftEnd": "10:00", "lunchBreak": "12:00-13:00" }
+    ]
   }
   
