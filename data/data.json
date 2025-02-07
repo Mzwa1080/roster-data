@@ -1,32 +1,22 @@
 {
     "developers": [
-      { "id": 1, "name": "Alice", "role": "Frontend Developer" },
-      { "id": 2, "name": "Bob", "role": "Backend Developer" },
-      { "id": 3, "name": "Charlie", "role": "Full-Stack Developer" }
+      { "id": 1, "name": "Shawn Louw", "role": "Frontend Developer" },
+      { "id": 2, "name": "Charles Lee", "role": "Backend Developer" },
+      { "id": 3, "name": "Tashreeq Mustaf", "role": "Fullstack Developer" },
+      { "id": 4, "name": "Mzwakhe Louw", "role": "UI/UX Designer" },
+      { "id": 5, "name": "Ehrin Manuel", "role": "DevOps Engineer" },
+      { "id": 6, "name": "Sakhi Abrahams", "role": "QA Tester" },
+      { "id": 7, "name": "Ben Schuman", "role": "Project Manager" }
     ],
     "schedule": {
       "2025-02-07": [
-        { 
-          "developerId": 1, 
-          "task": "Build UI for Dashboard", 
-          "shiftStart": "08:00", 
-          "shiftEnd": "16:00",
-          "lunchBreak": "12:00 - 13:00"
-        },
-        { 
-          "developerId": 2, 
-          "task": "Develop API for User Auth", 
-          "shiftStart": "08:00", 
-          "shiftEnd": "16:00",
-          "lunchBreak": "12:00 - 13:00"
-        },
-        { 
-          "developerId": 3, 
-          "task": "Integrate UI with API", 
-          "shiftStart": "08:00", 
-          "shiftEnd": "16:00",
-          "lunchBreak": "12:00 - 13:00"
-        }
+        { "developerId": 1, "task": "Build UI for Dashboard", "shiftStart": "08:00", "shiftEnd": "16:00", "lunchBreak": "12:00 - 13:00" },
+        { "developerId": 2, "task": "Develop API for User Auth", "shiftStart": "08:00", "shiftEnd": "16:00", "lunchBreak": "12:00 - 13:00" },
+        { "developerId": 3, "task": "Integrate UI with API", "shiftStart": "08:00", "shiftEnd": "16:00", "lunchBreak": "12:00 - 13:00" },
+        { "developerId": 4, "task": "Redesign login page", "shiftStart": "09:00", "shiftEnd": "17:00", "lunchBreak": "12:30 - 13:30" },
+        { "developerId": 5, "task": "Deploy new build to production", "shiftStart": "07:00", "shiftEnd": "15:00", "lunchBreak": "11:30 - 12:30" },
+        { "developerId": 6, "task": "Test API endpoints", "shiftStart": "08:30", "shiftEnd": "16:30", "lunchBreak": "12:00 - 13:00" },
+        { "developerId": 7, "task": "Coordinate sprint planning", "shiftStart": "10:00", "shiftEnd": "18:00", "lunchBreak": "13:00 - 14:00" }
       ]
     }
   }
