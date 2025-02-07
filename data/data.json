@@ -14,7 +14,7 @@
         { "developerId": 2, "task": "Develop API for User Auth"},
         { "developerId": 3, "task": "Integrate UI with API"},
         { "developerId": 3, "task": "Set up API for user authentication"},
-        { "developerId": 2, "task": "Integrate front-end with the API"  },
+        { "developerId": 3, "task": "Integrate front-end with the API"  },
         { "developerId": 4, "task": "Redesign login page" },
         { "developerId": 5, "task": "Deploy new build to production"},
         { "developerId": 6, "task": "Test API endpoints" },
