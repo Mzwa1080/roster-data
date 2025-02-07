@@ -19,7 +19,7 @@
       {"developerId": 103, "name": "Charles Lee", "role": "Developer", "skills": ["React", "JavaScript"]},
       {"developerId": 104, "name": "David Bishops", "role": "Team Leader", "skills": ["Vue", "API Design"]},
       {"developerId": 105, "name": "Shawn Louw", "role": "Developer", "skills": ["Angular", "TypeScript"]},
-      {"developerId": 106, "name": "Robert James", "role": "Developer", "skills": ["Node", "SQL"git]}
+      {"developerId": 106, "name": "Robert James", "role": "Developer", "skills": ["Node", "SQL"]}
     ],
     "schedule": [
       {"developerId": 101, "task": "Lead Team Meeting", "shiftStart": "09:00", "shiftEnd": "10:00", "lunchBreak": "12:00-13:00"},
