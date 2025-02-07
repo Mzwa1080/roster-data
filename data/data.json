@@ -3,30 +3,28 @@
       {
         "id": 1,
         "name": "Backend Team",
-        "leaderId": 7,
-        "members": [2]
+        "leaderId": 101,
+        "members": [101, 102, 103]
       },
       {
         "id": 2,
         "name": "Frontend Team",
-        "leaderId": 7,
-        "members": [1]
+        "leaderId": 104,
+        "members": [104, 105, 106]
       }
     ],
     "members": [
-      { "id": 1, "name": "Shawn Louw", "role": "Frontend Developer", "skills": ["React", "JavaScript"] },
-      { "id": 2, "name": "Charles Lee", "role": "Backend Developer", "skills": ["Node.js", "SQL"] },
-      { "id": 3, "name": "Tashreeq Mustaf", "role": "Fullstack Developer", "skills": ["React", "Node.js", "JavaScript"] },
-      { "id": 7, "name": "Ben Schuman", "role": "Project Manager", "skills": ["Agile", "Team Coordination"] }
+      {"id": 101, "name": "Ben Schuman", "role": "Team Leader", "skills": ["Node.js", "SQL"]},
+      {"id": 102, "name": "Tashreeq Mustaffa", "role": "Developer", "skills": ["Java", "Python"]},
+      {"id": 103, "name": "Charles Lee", "role": "Developer", "skills": ["React", "JavaScript"]},
+      {"id": 104, "name": "David Bishops", "role": "Team Leader", "skills": ["Vue", "API Design"]},
+      {"id": 105, "name": "Shawn Louw", "role": "Developer", "skills": ["Angular", "TypeScript"]},
+      {"id": 106, "name": "Robert James", "role": "Developer", "skills": ["Node", "SQL"]}
     ],
     "schedule": [
-      { "developerId": 1, "task": "Build UI for Dashboard", "shiftStart": "09:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
-      { "developerId": 1, "task": "Design User Profile Page", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
-      { "developerId": 2, "task": "Develop API for User Auth", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
-      { "developerId": 2, "task": "Set up Database for User Data", "shiftStart": "11:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
-      { "developerId": 3, "task": "Integrate UI with Backend", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
-      { "developerId": 3, "task": "Set up API for User Authentication", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00" },
-      { "developerId": 7, "task": "Coordinate sprint planning", "shiftStart": "09:00", "shiftEnd": "10:00", "lunchBreak": "12:00-13:00" }
+      {"developerId": 101, "task": "Lead Team Meeting", "shiftStart": "09:00", "shiftEnd": "10:00", "lunchBreak": "12:00-13:00"},
+      {"developerId": 102, "task": "Develop Backend API", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00"},
+      {"developerId": 103, "task": "Implement Frontend Features", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00"}
     ]
   }
   
