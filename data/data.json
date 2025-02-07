@@ -1,0 +1,55 @@
+{
+    "teams": [
+      {
+        "id": "team_1",
+        "name": "Team A",
+        "members": [
+          {"id": "member_1", "name": "Alice", "role": "Team Leader", "shiftStart": "08:00", "shiftEnd": "16:00"},
+          {"id": "member_2", "name": "Bob", "role": "Support Technician", "shiftStart": "08:00", "shiftEnd": "16:00"},
+          {"id": "member_3", "name": "Charlie", "role": "Field Support", "shiftStart": "08:00", "shiftEnd": "16:00"},
+          {"id": "member_4", "name": "David", "role": "Supervisor", "shiftStart": "08:00", "shiftEnd": "16:00"},
+          {"id": "member_5", "name": "Eve", "role": "Coordinator", "shiftStart": "08:00", "shiftEnd": "16:00"},
+          {"id": "member_6", "name": "Frank", "role": "Assistant", "shiftStart": "08:00", "shiftEnd": "16:00"}
+        ]
+      },
+      {
+        "id": "team_2",
+        "name": "Team B",
+        "members": [
+          {"id": "member_7", "name": "Grace", "role": "Team Leader", "shiftStart": "09:00", "shiftEnd": "17:00"},
+          {"id": "member_8", "name": "Hank", "role": "Support Technician", "shiftStart": "09:00", "shiftEnd": "17:00"},
+          {"id": "member_9", "name": "Ivy", "role": "Field Support", "shiftStart": "09:00", "shiftEnd": "17:00"},
+          {"id": "member_10", "name": "Jack", "role": "Supervisor", "shiftStart": "09:00", "shiftEnd": "17:00"},
+          {"id": "member_11", "name": "Kelly", "role": "Coordinator", "shiftStart": "09:00", "shiftEnd": "17:00"},
+          {"id": "member_12", "name": "Liam", "role": "Assistant", "shiftStart": "09:00", "shiftEnd": "17:00"}
+        ]
+      }
+    ],
+    "rosters": [
+      {
+        "date": "2025-02-07",
+        "teamId": "team_1",
+        "tasks": [
+          {"memberId": "member_1", "task": "Manage daily operations", "duration": "8 hours"},
+          {"memberId": "member_2", "task": "Assist with technical issues", "duration": "8 hours"},
+          {"memberId": "member_3", "task": "On-site support", "duration": "8 hours"},
+          {"memberId": "member_4", "task": "Oversee team performance", "duration": "8 hours"},
+          {"memberId": "member_5", "task": "Coordinate team tasks", "duration": "8 hours"},
+          {"memberId": "member_6", "task": "Assist with daily operations", "duration": "8 hours"}
+        ]
+      },
+      {
+        "date": "2025-02-07",
+        "teamId": "team_2",
+        "tasks": [
+          {"memberId": "member_7", "task": "Manage daily operations", "duration": "8 hours"},
+          {"memberId": "member_8", "task": "Assist with technical issues", "duration": "8 hours"},
+          {"memberId": "member_9", "task": "On-site support", "duration": "8 hours"},
+          {"memberId": "member_10", "task": "Oversee team performance", "duration": "8 hours"},
+          {"memberId": "member_11", "task": "Coordinate team tasks", "duration": "8 hours"},
+          {"memberId": "member_12", "task": "Assist with daily operations", "duration": "8 hours"}
+        ]
+      }
+    ]
+  }
+  
