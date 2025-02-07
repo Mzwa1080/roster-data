@@ -14,12 +14,12 @@
       }
     ],
     "members": [
-      {"id": 101, "name": "Ben Schuman", "role": "Team Leader", "skills": ["Node.js", "SQL"]},
-      {"id": 102, "name": "Tashreeq Mustaffa", "role": "Developer", "skills": ["Java", "Python"]},
-      {"id": 103, "name": "Charles Lee", "role": "Developer", "skills": ["React", "JavaScript"]},
-      {"id": 104, "name": "David Bishops", "role": "Team Leader", "skills": ["Vue", "API Design"]},
-      {"id": 105, "name": "Shawn Louw", "role": "Developer", "skills": ["Angular", "TypeScript"]},
-      {"id": 106, "name": "Robert James", "role": "Developer", "skills": ["Node", "SQL"]}
+      {"developerId": 101, "name": "Ben Schuman", "role": "Team Leader", "skills": ["Node.js", "SQL"]},
+      {"developerId": 102, "name": "Tashreeq Mustaffa", "role": "Developer", "skills": ["Java", "Python"]},
+      {"developerId": 103, "name": "Charles Lee", "role": "Developer", "skills": ["React", "JavaScript"]},
+      {"developerId": 104, "name": "David Bishops", "role": "Team Leader", "skills": ["Vue", "API Design"]},
+      {"developerId": 105, "name": "Shawn Louw", "role": "Developer", "skills": ["Angular", "TypeScript"]},
+      {"developerId": 106, "name": "Robert James", "role": "Developer", "skills": ["Node", "SQL"git]}
     ],
     "schedule": [
       {"developerId": 101, "task": "Lead Team Meeting", "shiftStart": "09:00", "shiftEnd": "10:00", "lunchBreak": "12:00-13:00"},
