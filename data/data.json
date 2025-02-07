@@ -6,14 +6,27 @@
     ],
     "schedule": {
       "2025-02-07": [
-        { "developerId": 1, "task": "Build UI for Dashboard" },
-        { "developerId": 2, "task": "Develop API for User Auth" },
-        { "developerId": 3, "task": "Integrate UI with API" }
-      ],
-      "2025-02-08": [
-        { "developerId": 2, "task": "Optimize Database Queries" },
-        { "developerId": 3, "task": "Write End-to-End Tests" },
-        { "developerId": 1, "task": "Fix UI Bugs" }
+        { 
+          "developerId": 1, 
+          "task": "Build UI for Dashboard", 
+          "shiftStart": "08:00", 
+          "shiftEnd": "16:00",
+          "lunchBreak": "12:00 - 13:00"
+        },
+        { 
+          "developerId": 2, 
+          "task": "Develop API for User Auth", 
+          "shiftStart": "08:00", 
+          "shiftEnd": "16:00",
+          "lunchBreak": "12:00 - 13:00"
+        },
+        { 
+          "developerId": 3, 
+          "task": "Integrate UI with API", 
+          "shiftStart": "08:00", 
+          "shiftEnd": "16:00",
+          "lunchBreak": "12:00 - 13:00"
+        }
       ]
     }
   }
