@@ -10,13 +10,15 @@
     ],
     "schedule": {
       "2025-02-07": [
-        { "developerId": 1, "task": "Build UI for Dashboard", "shiftStart": "08:00", "shiftEnd": "16:00", "lunchBreak": "12:00 - 13:00" },
-        { "developerId": 2, "task": "Develop API for User Auth", "shiftStart": "08:00", "shiftEnd": "16:00", "lunchBreak": "12:00 - 13:00" },
-        { "developerId": 3, "task": "Integrate UI with API", "shiftStart": "08:00", "shiftEnd": "16:00", "lunchBreak": "12:00 - 13:00" },
-        { "developerId": 4, "task": "Redesign login page", "shiftStart": "09:00", "shiftEnd": "17:00", "lunchBreak": "12:30 - 13:30" },
-        { "developerId": 5, "task": "Deploy new build to production", "shiftStart": "07:00", "shiftEnd": "15:00", "lunchBreak": "11:30 - 12:30" },
-        { "developerId": 6, "task": "Test API endpoints", "shiftStart": "08:30", "shiftEnd": "16:30", "lunchBreak": "12:00 - 13:00" },
-        { "developerId": 7, "task": "Coordinate sprint planning", "shiftStart": "10:00", "shiftEnd": "18:00", "lunchBreak": "13:00 - 14:00" }
+        { "developerId": 1, "task": "Build UI for Dashboard"},
+        { "developerId": 2, "task": "Develop API for User Auth"},
+        { "developerId": 3, "task": "Integrate UI with API"},
+        { "developerId": 3, "task": "Set up API for user authentication"},
+        { "developerId": 2, "task": "Integrate front-end with the API"  },
+        { "developerId": 4, "task": "Redesign login page" },
+        { "developerId": 5, "task": "Deploy new build to production"},
+        { "developerId": 6, "task": "Test API endpoints" },
+        { "developerId": 7, "task": "Coordinate sprint planning"}
       ]
     }
   }
