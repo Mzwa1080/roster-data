@@ -14,17 +14,24 @@
       }
     ],
     "members": [
-      {"developerId": 101, "name": "Ben Schuman", "role": "Team Leader", "skills": ["Node.js", "SQL"]},
-      {"developerId": 102, "name": "Tashreeq Mustaffa", "role": "Developer", "skills": ["Java", "Python"]},
-      {"developerId": 103, "name": "Charles Lee", "role": "Developer", "skills": ["React", "JavaScript"]},
-      {"developerId": 104, "name": "David Bishops", "role": "Team Leader", "skills": ["Vue", "API Design"]},
-      {"developerId": 105, "name": "Shawn Louw", "role": "Developer", "skills": ["Angular", "TypeScript"]},
-      {"developerId": 106, "name": "Robert James", "role": "Developer", "skills": ["Node", "SQL"]}
+      { "id": 101, "name": "Ben Schuman", "role": "Team Leader", "skills": ["Node.js", "SQL"] },
+      { "id": 102, "name": "Tashreeq Mustaffa", "role": "Developer", "skills": ["Java", "Python"] },
+      { "id": 103, "name": "Charles Lee", "role": "Developer", "skills": ["React", "JavaScript"] },
+      { "id": 104, "name": "David Bishops", "role": "Team Leader", "skills": ["Vue", "API Design"] },
+      { "id": 105, "name": "Shawn Louw", "role": "Developer", "skills": ["Angular", "TypeScript"] },
+      { "id": 106, "name": "Robert James", "role": "Developer", "skills": ["Node", "SQL"] }
     ],
-    "schedule": [
-      {"developerId": 101, "task": "Lead Team Meeting", "shiftStart": "09:00", "shiftEnd": "10:00", "lunchBreak": "12:00-13:00"},
-      {"developerId": 102, "task": "Develop Backend API", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00"},
-      {"developerId": 103, "task": "Implement Frontend Features", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00-13:00"}
-    ]
+    "schedule": {
+      "2025-02-08": [
+        { "developerId": 101, "task": "Lead Team Meeting", "shiftStart": "09:00", "shiftEnd": "10:00" },
+        { "developerId": 102, "task": "Develop Backend API", "shiftStart": "10:00", "shiftEnd": "17:00" },
+        { "developerId": 103, "task": "Implement Frontend Features", "shiftStart": "10:00", "shiftEnd": "17:00" }
+      ],
+      "2025-02-09": [
+        { "developerId": 104, "task": "Review Code", "shiftStart": "09:00", "shiftEnd": "12:00" },
+        { "developerId": 105, "task": "Fix UI Bugs", "shiftStart": "12:00", "shiftEnd": "18:00" },
+        { "developerId": 106, "task": "Optimize Database Queries", "shiftStart": "10:00", "shiftEnd": "17:00" }
+      ]
+    }
   }
   
