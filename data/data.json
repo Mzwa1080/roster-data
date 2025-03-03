@@ -20,18 +20,19 @@
       { "id": 104, "name": "David Bishops", "role": "Team Leader", "skills": ["Vue", "API Design"] },
       { "id": 105, "name": "Shawn Louw", "role": "Developer", "skills": ["Angular", "TypeScript"] },
       { "id": 106, "name": "Robert James", "role": "Developer", "skills": ["Node", "SQL"] },
-      { "id": 107, "name": "Emily Clark", "role": "Developer", "skills": ["Python", "Django"] },
+      { "id": 107, "name": "Sipho Clark", "role": "Developer", "skills": ["Python", "Django"] },
       { "id": 108, "name": "Michael Brown", "role": "Developer", "skills": ["Java", "Spring Boot"] },
-      { "id": 109, "name": "Sophia Garcia", "role": "Developer", "skills": ["React", "Redux"] },
-      { "id": 110, "name": "Daniel Martinez", "role": "Developer", "skills": ["Vue", "TypeScript"] }
+      { "id": 109, "name": "Sophia Blue", "role": "Developer", "skills": ["React", "Redux"] },
+      { "id": 110, "name": "Daniel Mack", "role": "Developer", "skills": ["Vue", "TypeScript"] }
     ],
     "schedule": {
       "2025-02-08": [
-        { "developerId": 101, "task": "Lead Team Meeting", "shiftStart": "09:00", "shiftEnd": "10:00", "lunchBreak": "12:00 - 13:00" },
+        { "developerId": 101, "task": " Meeting", "shiftStart": "09:00", "shiftEnd": "10:00", "lunchBreak": "12:00 - 13:00" },
         { "developerId": 102, "task": "Develop Backend API", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00 - 13:00" },
         { "developerId": 103, "task": "Implement Frontend Features", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00 - 13:00" },
         { "developerId": 107, "task": "Write Unit Tests", "shiftStart": "10:00", "shiftEnd": "13:00", "lunchBreak": "12:00 - 13:00" },
-        { "developerId": 107, "task": "Debug Backend Code", "shiftStart": "14:00", "shiftEnd": "17:00", "lunchBreak": "12:00 - 13:00" },
+        { "developerId": 107, "task": "Debug BackeTeamnd Code", "shiftStart": "14:00", "shiftEnd": "17:00", "lunchBreak": "12:00 - 13:00" },
+        { "developerId": 106, "task": "Debug BackeTeamnd Code", "shiftStart": "14:00", "shiftEnd": "17:00", "lunchBreak": "12:00 - 13:00" },
         { "developerId": 108, "task": "Optimize Database Queries", "shiftStart": "10:00", "shiftEnd": "17:00", "lunchBreak": "12:00 - 13:00" }
       ],
       "2025-02-09": [
@@ -52,3 +53,6 @@
       ]
     }
   }
+
+
+  
